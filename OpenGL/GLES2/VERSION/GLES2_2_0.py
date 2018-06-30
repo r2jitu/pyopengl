@@ -7,8 +7,9 @@ Python-friendly API
 The official definition of this extension is available here:
 http://www.opengl.org/registry/specs/VERSION/GLES2_2_0.txt
 '''
-from OpenGL import platform, constant, arrays
+from OpenGL import platform, constant, arrays, contextdata
 from OpenGL import extensions, wrapper
+from OpenGL.arrays import ArrayDatatype
 import ctypes
 from OpenGL.raw.GLES2 import _types, _glgets
 from OpenGL.raw.GLES2.VERSION.GLES2_2_0 import *
